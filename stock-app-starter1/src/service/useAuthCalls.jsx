@@ -57,6 +57,7 @@ const useAuthCalls = () => {
       // await axios.get(`${process.env.REACT_APP_BASE_URL}/auth/logout`, {
       //   headers: { Authorization: `Token ${token}` },
       // })
+
       await axiosWithToken("/auth/logout/")
       toastSuccessNotify("Çıkış işlemi başarili.")
       dispatch(logoutSuccess())
