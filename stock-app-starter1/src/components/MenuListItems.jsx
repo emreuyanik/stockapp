@@ -56,7 +56,7 @@ const MenuListItems = () => {
           sx={{
             color: "white", 
             "&:hover": {
-              backgroundColor: "rgba(0, 0, 255, 0.1)", 
+              
               color: "red", 
               "& .MuiSvgIcon-root": {
                 color: "red", 
